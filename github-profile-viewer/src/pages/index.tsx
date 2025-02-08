@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useGitHubProfile } from "@/hooks/useGitHubProfile";
-import ProfileCard from "@/components/ProfileCard";
+import ProfileCard from "@/components/ProfileCard"; 
+
 
 export default function Home() {
   const [username, setUsername] = useState("");
